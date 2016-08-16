@@ -13,7 +13,7 @@
   'use strict';
 
   var textarea = document.querySelector('.arrow_box textarea');
-  var button = document.querySelector('fieldset.buttons .submit');
+  var button = document.querySelector('fieldset.buttons .submit[tabindex="2"]');
   var form = document.querySelector('form.reply');
   var contentRegex = /(?:```)([\s\S]*?)(?:```)/g;
   var space = '\u00A0';
