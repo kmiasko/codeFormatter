@@ -23,6 +23,9 @@
     head.appendChild(link);
   }
 
+  injectCSS();
+  hljs.initHighlightingOnLoad();
+
   // submit button
   var button = document.querySelector('fieldset.buttons .submit[tabindex="2"]');
 
@@ -116,8 +119,6 @@
 
   function ob() {
     if (document.querySelector('.pager')) return;
-    injectCSS();
-    hljs.initHighlightingOnLoad();
 
     // initial format after document load
     formatComments();
