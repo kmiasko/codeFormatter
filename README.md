@@ -7,6 +7,6 @@ and syntax higlighting of code in wykop.pl comments
 
 ## Usage
 
-Just put yout code between \`\`\`
+Just put your code between \`\`\`
 
 ![](http://i.imgur.com/VfDwfBV.gif)
